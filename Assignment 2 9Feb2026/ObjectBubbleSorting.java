@@ -15,7 +15,7 @@ class Student {
 	}
 }
 
-public class ObjectSorting {
+public class ObjectBubbleSorting {
 
 	public static void main(String[] args) {
 

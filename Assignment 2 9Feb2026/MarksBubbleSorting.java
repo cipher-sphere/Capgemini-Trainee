@@ -1,4 +1,3 @@
-package Sorting;
 
 class Trainee {
     int rollno;
@@ -16,7 +15,7 @@ class Trainee {
     }
 }
 
-public class MarksSorting {
+public class MarksBubbleSorting {
     public static void main(String[] args) {
 
         Trainee[] t = { new Trainee(1, "Aman", 80, 75, 70), new Trainee(2, "Ravi", 80, 75, 85),
