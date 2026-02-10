@@ -1,0 +1,58 @@
+ACTIVITY 2 – ADVANCED PROBLEM SOLVING SHEET
+Course: Java Fullstack with Angular – Jan 2026
+Subject: Problem Solving & Data Structures with Java
+Topic: Lists, ArrayList vs LinkedList, Singly Linked List
+Duration: 90 Minutes
+ 
+1. Objective
+• Apply ArrayList and LinkedList in real-world scenarios.
+• Analyze time and space complexity.
+• Strengthen manual implementation of Singly Linked List.
+• Prepare for coding interviews.
+2. Part 1 – Scenario Based Analysis
+For each scenario, choose the correct data structure (ArrayList or LinkedList) and justify your answer with time complexity.
+1. Real-time chat message storage.
+2. Music playlist where songs are frequently reordered.
+3. Student database with frequent searching by index.
+4. Browser back and forward navigation.
+5. Online exam system storing answers sequentially.
+3. Part 2 – Coding Challenges
+Task A – ArrayList Advanced
+Write a Java program to:
+• Store 10 numbers.
+• Remove all even numbers.
+• Find maximum and minimum element.
+• Sort in descending order.
+• Display final result.
+Task B – LinkedList Implementation
+Write a program to simulate a hospital queue system:
+• Add 5 patients.
+• Emergency patient added at first position.
+• Remove 2 patients after treatment.
+• Display current queue.
+4. Part 3 – Singly Linked List (Interview Level)
+Implement the following operations manually:
+• Insert at specific position.
+• Delete by value.
+• Count total nodes.
+• Find middle element (Slow & Fast pointer).
+• Reverse the linked list.
+5. Bonus Challenge (For Top Performers)
+• Detect loop in linked list (Floyd’s Algorithm).
+• Merge two sorted linked lists.
+• Remove duplicates from linked list.
+6. Viva Questions
+1. What is amortized time complexity?
+2. Why ArrayList resizing is expensive?
+3. How LinkedList stores elements internally?
+4. Difference between singly and doubly linked list?
+5. What is space complexity of LinkedList?
+7. Evaluation Criteria (15 Marks)
+Criteria	Marks
+Code Correctness	5
+Logic & Efficiency	3
+Complexity Explanation	3
+Output & Testing	2
+Viva Performance	2
+ 
+Learning Outcome: Students will gain advanced understanding of List data structures and be interview-ready for implementation-based questions.
