@@ -1,0 +1,34 @@
+
+Stack in Function Calls (Call Stack):
+
+When a function runs in a program, it is added to a stack.
+If that function calls another function, the new one goes on top.
+The function that was called last finishes first.
+This is why stack follows LIFO (Last In First Out).
+
+Example:
+If A calls B and B calls C, then C finishes first, then B, then A.
+
+Stack in Undo/Redo:
+
+When we type something in a text editor, each action is saved in a stack.
+If we press Undo, the last action is removed first.
+Redo brings back the last removed action.
+So stack helps in managing these actions easily.
+
+Stack in Expression Evaluation:
+
+Stack helps in solving math expressions like A + B * C.
+It helps in converting expressions from one form to another.
+It also helps in checking brackets.
+
+Infix, Prefix, Postfix:
+
+Infix → A + B
+Operator is in between.
+
+Prefix → + A B
+Operator is at the beginning.
+
+Postfix → A B +
+Operator is at the end.
