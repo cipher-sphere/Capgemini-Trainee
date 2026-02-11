@@ -1,0 +1,31 @@
+ACTIVITY 1: Understanding Stack Operations
+Subject: Data Structures
+Topic: Stacks | Stack Implementation | Basic Stack Problems
+ 
+Objective:
+To help students understand the working of Stack data structure and practice Push, Pop, and Peek operations using step-by-step dry run.
+Part A: Conceptual Questions
+1. Define Stack and explain LIFO principle.
+2. What is Stack Overflow and Stack Underflow?
+3. Write real-life examples of Stack.
+4. What is the time complexity of Push and Pop operations?
+Part B: Dry Run Activity
+Given a stack of size 5. Perform the following operations step-by-step and show the value of TOP after each operation.
+Push(10)
+Push(20)
+Push(30)
+Pop()
+Push(40)
+Peek()
+ 
+Students must draw stack diagram after each operation.
+Part C: Coding Task
+Write a Java program to implement Stack using Array. The program should allow user input and perform Push, Pop, and Peek operations.
+Part D: Problem Solving Task
+Write a program to check whether the given parentheses expression is balanced or not using Stack.
+Submission Requirements:
+• Handwritten dry run with stack diagram.
+• Java program code printout.
+• Output screenshot.
+• Short conclusion (5 lines).
+
