@@ -1,0 +1,14 @@
+Push → O(1)
+Push adds an element at the top.
+It takes constant time.
+
+Pop → O(1)
+Pop removes the top element.
+It also takes constant time.
+
+Peek → O(1)
+Peek shows the top element without removing it.
+It takes constant time.
+
+Balanced Parentheses → O(n)
+Here we check each character one by one.
