@@ -27,7 +27,6 @@ class BinarySearchTree {
         return root;
     }
 
-    // Search
     boolean search(Node root, int key) {
         if (root == null)
             return false;
@@ -41,7 +40,6 @@ class BinarySearchTree {
             return search(root.right, key);
     }
 
-    // Inorder
     void inorder(Node root) {
         if (root != null) {
             inorder(root.left);
@@ -50,7 +48,6 @@ class BinarySearchTree {
         }
     }
 
-    // Preorder
     void preorder(Node root) {
         if (root != null) {
             System.out.print(root.data + " ");
@@ -59,7 +56,6 @@ class BinarySearchTree {
         }
     }
 
-    // Postorder
     void postorder(Node root) {
         if (root != null) {
             postorder(root.left);
@@ -69,7 +65,7 @@ class BinarySearchTree {
     }
 }
 
-public class BST {
+public class Task_1_to_3 {
     public static void main(String[] args) {
 
         BinarySearchTree bst = new BinarySearchTree();
@@ -92,7 +88,7 @@ public class BST {
         System.out.println("\nSearch 40: " + bst.search(bst.root, 40));
         System.out.println("Search 100: " + bst.search(bst.root, 100));
 
-        // -------- Min Heap using PriorityQueue --------
+        // Min Heap using PriorityQueue
         PriorityQueue<Integer> minHeap = new PriorityQueue<>();
 
         Random rand = new Random();
